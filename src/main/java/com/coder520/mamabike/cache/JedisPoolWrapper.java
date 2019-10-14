@@ -12,7 +12,7 @@ import redis.clients.jedis.JedisPoolConfig;
 import javax.annotation.PostConstruct;
 
 
-//redis配置 本处配置redis连接池  dev
+//redis配置 本处配置redis连接池
 @Component
 @Service
 @Slf4j
