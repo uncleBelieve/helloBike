@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 /**
- * 系统参数
+ * 系统参数   reids参数设置
  */
 @Component
 @Data
