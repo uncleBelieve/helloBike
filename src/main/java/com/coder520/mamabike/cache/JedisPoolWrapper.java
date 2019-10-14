@@ -27,7 +27,7 @@ public class JedisPoolWrapper {
 
 	public  void init() throws MaMaBikeException {
 		try {
-			System.out.println("jedis初始化.........");
+			System.out.println("jedis初始化.........初始化");
 			JedisPoolConfig config = new JedisPoolConfig();
 			config.setMaxTotal(parameters.getRedisMaxTotal());
 			config.setMaxIdle(parameters.getRedisMaxIdle());
