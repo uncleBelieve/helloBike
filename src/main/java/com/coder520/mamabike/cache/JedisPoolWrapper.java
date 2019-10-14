@@ -11,6 +11,8 @@ import redis.clients.jedis.JedisPoolConfig;
 
 import javax.annotation.PostConstruct;
 
+
+//redis配置
 @Component
 @Service
 @Slf4j
